@@ -1,0 +1,32 @@
+{
+  "name": "flowhttp-status",
+  "version": "0.1.0",
+  "description": "A flowHttp extension used for whitelisting HTTP status codes",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "flowhttp": "~0.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/watson/flowhttp-status.git"
+  },
+  "keywords": [
+    "flowhttp",
+    "statuscode",
+    "http",
+    "https",
+    "stream",
+    "streams2"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/flowhttp-status/issues"
+  },
+  "homepage": "https://github.com/watson/flowhttp-status"
+}
