@@ -23,6 +23,8 @@ var Status = function () {
     var code = res.statusCode;
     if (codes && codes.indexOf(code) === -1) {
       var err = new Error('Unexpected response: ' + code + ' ' + http.STATUS_CODES[code]);
+      err.method = self._src.req.method;
+      err.url = self._src.req.url;
       self.emit('error', err);
     }
   });
